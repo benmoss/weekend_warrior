@@ -13,5 +13,7 @@ Usage
 cinco_de_mayo = Date.parse('05/5/2011')
 
 cinco_de_mayo.weekend? - Is the given date a weekend day?
+
 cinco_de_mayo.go_backward_by_weekdays(5) - Returns the date 5 weekdays prior from the given date.
+
 cinco_de_mayo.go_forward_by_weekdays(5) - Returns the date 5 weekdays after from the given date.

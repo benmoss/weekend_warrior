@@ -1,0 +1,17 @@
+weekend_warrior
+================
+
+weekend_warrior is a gem by James Cropcho and Ben Moss for handling 5-day workweeks. It provides the Time and Date classes with several methods that make identifying and selecting weekdays simple. It was built as part of a project management application that needed to skip weekends.
+
+Quick Start
+================
+
+gem install weekend_warrior
+
+Usage
+================
+cinco_de_mayo = Date.parse('05/5/2011')
+
+cinco_de_mayo.weekend? - Is the given date a weekend day?
+cinco_de_mayo.go_backward_by_weekdays(5) - Returns the date 5 weekdays prior from the given date.
+cinco_de_mayo.go_forward_by_weekdays(5) - Returns the date 5 weekdays after from the given date.

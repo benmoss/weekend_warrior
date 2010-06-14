@@ -1,0 +1,8 @@
+LICENSE
+README.rdoc
+Rakefile
+init.rb
+lib/weekend_warrior.rb
+spec/weekend_warrior_spec.rb
+weekend_warrior.gemspec
+Manifest

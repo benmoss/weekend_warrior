@@ -10,5 +10,4 @@ config/database.yml
 db/*.sqlite3
 coverage/
 spec/report.html
-Manifest
-*.gemspec
+init.rb
